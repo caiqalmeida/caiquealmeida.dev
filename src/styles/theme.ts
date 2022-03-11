@@ -1,15 +1,15 @@
-export type ThemeType = typeof theme;
+export type ThemeType = typeof theme
 
 export const theme = {
   colors: {
     purple: {
       dark: '#120836',
-      medium: '#1A0C4C'
+      medium: '#1A0C4C',
     },
     white: {
-      ligth: 'rgba(255, 255, 255, 1)',
+      light: 'rgba(255, 255, 255, 1)',
       medium: 'rgba(255, 255, 255, .8)',
-      mediumDark: 'rgba(255, 255, 255, .7)'
+      mediumDark: 'rgba(255, 255, 255, .7)',
     },
     gradient: 'linear-gradient(266.18deg, #B66AFF -4.75%, #465AF1 116.14%)',
   },
@@ -24,14 +24,14 @@ export const theme = {
       lg: '2rem', // 32px
       xl: '2.5rem', // 40px
       xxl: '3rem', // 48px
-      xxxl: '4rem' // 64px
+      xxxl: '4rem', // 64px
     },
     weight: {
       regular: '400',
       medium: '500',
       semibold: '600',
-      bold: '700'
-    }
+      bold: '700',
+    },
   },
   borders: {
     radius: {
@@ -39,7 +39,7 @@ export const theme = {
       lg: '64px',
       bottomSmall: '0px 0px 4px 4px',
       circular: '50%',
-    }
+    },
   },
   spacing: {
     nano: '0.5rem', // 8px
@@ -54,8 +54,8 @@ export const theme = {
     xxl: '5rem', // 80px
     xxxl: '7.5rem', // 120px
     huge: '10rem', // 160px
-    giant: '12.5rem' // 200px
-  }
+    giant: '12.5rem', // 200px
+  },
 }
 
-export default theme;
+export default theme
