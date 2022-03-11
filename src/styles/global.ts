@@ -1,14 +1,28 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   body, * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: ${props => props.theme.colors.purple.dark};
+    background: ${(props) => props.theme.colors.purple.dark};
   }
   * {
-    font-family: ${props => props.theme.font.family};
-    color: ${props => props.theme.colors.white.medium};
+    font-family: ${(props) => props.theme.font.family};
+    color: ${(props) => props.theme.colors.white.medium};
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    z-index: 0;
+    outline: none;
+  
   }
-`;
+
+  button {
+    cursor: pointer;
+  }
+`
